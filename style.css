@@ -3,6 +3,10 @@
     margin:0;
     box-sizing: border-box;
 }
+body{
+    max-width: 900px;
+    margin:0 auto;
+}
 h1{
     text-align: center;
     padding: 1.3rem;
@@ -16,12 +20,21 @@ nav{
     margin-block: 1rem;
     padding: 1rem;
     background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width:60px;
+    aspect-ratio: 1;
 }
 nav ul{
     list-style-type: none;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
+    align-items: center;
     gap:2rem;
+    cursor: pointer;
     
 }
 nav ul li a{
