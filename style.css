@@ -5,7 +5,11 @@
 }
 body{
     max-width: 900px;
+    min-height: 100vh;
     margin:0 auto;
+    position: relative;
+    
+    
 }
 h1{
     text-align: center;
@@ -40,4 +44,18 @@ nav ul{
 nav ul li a{
     text-decoration: none;
     color:white;
+}
+footer{
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    color:whitesmoke;
+    background-color: black;
+    /* text-align: center; */
+    /* padding: 0.5rem; */
+
+}
+footer p{
+    text-align: center;
+    padding: 0.7rem;
 }
