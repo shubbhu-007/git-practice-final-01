@@ -10,3 +10,21 @@ h1{
     color:whitesmoke;
     letter-spacing: 0.3rem;
 }
+
+nav{
+    width: 100%;
+    margin-block: 1rem;
+    padding: 1rem;
+    background-color: cadetblue;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    gap:2rem;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
